@@ -2,7 +2,6 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-const token = '';
  
 
 client.on('ready', () => {
@@ -52,4 +51,4 @@ client.on('message', message => {
 
 // THIS  MUST  BE  THIS  WAY
 
-client.login(token);//BOT_TOKEN is the Client Secret
+client.login(process.env.ROSEBOT_TOKEN);//BOT_TOKEN is the Client Secret
