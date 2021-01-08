@@ -34,6 +34,12 @@ if (message.content === 'uwu') {
        }
 
 
+if (message.content === 'wifey') {
+
+       message.reply('Ash is a beautiful human, you know?');
+
+       }
+
 
   if (message.content === "Shut up bot") {
     message.reply(" I have feelings too you know :(");
