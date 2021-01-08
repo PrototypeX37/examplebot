@@ -27,7 +27,7 @@ if (message.content === 'ash3') {
 
        }
 
-if (message.content === 'ash3') {
+if (message.content === 'uwu') {
 
        message.reply('<3 uwu <3 uwu <3 uwu <3 uwu <3');
 
