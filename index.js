@@ -20,6 +20,13 @@ client.on('message', message => {
 
        }
 
+
+if (message.content === 'ash3') {
+
+       message.reply('I shit everywhere...');
+
+       }
+
   if (message.content === "Shut up bot") {
     message.reply(" I have feelings too you know :(");
   }
