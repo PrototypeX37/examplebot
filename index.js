@@ -27,6 +27,14 @@ if (message.content === 'ash3') {
 
        }
 
+if (message.content === 'ash3') {
+
+       message.reply('<3 uwu <3 uwu <3 uwu <3 uwu <3');
+
+       }
+
+
+
   if (message.content === "Shut up bot") {
     message.reply(" I have feelings too you know :(");
   }
