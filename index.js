@@ -2,7 +2,7 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
- 
+ from discord.ext.commands import Bot
 
 client.on('ready', () => {
 
@@ -33,6 +33,14 @@ if (message.content === 'uwu') {
 
        }
 
+
+Rose = Bot(',')
+
+@Rose.command(pass_context = True)
+async def Msay(ctx, *args):
+    mesg = ' '.join(args)
+    await Rose.delete_message(ctx.message)
+    return await Rose.say(mesg)
 
 if (message.content === 'wifey') {
 
