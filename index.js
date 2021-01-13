@@ -20,9 +20,11 @@ client.on('message', message => {
        }
 
 
-if (message.content === 'ash3') {
+if (message.content === '!ManualLive RoseGardenCat') {
 
-       message.reply('I shit everywhere...');
+       message.reply('Checking Live Status...');
+
+       message.reply(':rose: @everyone, RoseGardenCat, is gas gone live at https://twitch.tv/rosegardencat ! Currently Playing Just Chatting! Come say hi! :rose:');
 
        }
 
