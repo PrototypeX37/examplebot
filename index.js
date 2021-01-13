@@ -24,7 +24,7 @@ if (message.content === '!ManualLive RoseGardenCat') {
 
        message.reply('Checking Live Status...');
 
-       message.reply(':rose: @everyone, RoseGardenCat, is gas gone live at https://twitch.tv/rosegardencat ! Currently Playing Just Chatting! Come say hi! :rose:');
+       message.reply(':rose: @everyone, RoseGardenCat, is has gone live at https://twitch.tv/rosegardencat ! Currently Playing Just Chatting! Come say hi! :rose:');
 
        }
 
